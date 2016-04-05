@@ -24,5 +24,27 @@ return false;
 }
 </script>
 
+
+<!-- take date value -->
+
+<input type="date" id="myDate" value="2000-05-05">
+
+<p>Click the button to get the date of the date field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> input elements with type="date" are not supported in Internet Explorer or Firefox.</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDate").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+
 </body>
 </html>
